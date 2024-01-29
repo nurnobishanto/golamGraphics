@@ -1,0 +1,113 @@
+[2021-01-28 13:38:03] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(551): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(241): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 D:\\xampp\\htdocs\\fickrr\\app\\Exceptions\\Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(404): Fickrr\\Exceptions\\Handler->report(Object(ParseError))
+#6 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(112): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ParseError))
+#7 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2021-01-28 13:38:03] laravel.ERROR: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' at D:\\xampp\\htdocs\\fickrr\\config\\filesystems.php:69)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 
+[2023-03-16 14:27:44] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Class \"Maatwebs...', Array)
+#4 D:\\xampp\\htdocs\\fickrr\\app\\Exceptions\\Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(454): Fickrr\\Exceptions\\Handler->report(Object(Error))
+#6 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#7 D:\\xampp\\htdocs\\fickrr\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2023-03-16 14:27:44] laravel.ERROR: Class "Maatwebsite\Excel\Excel" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\Excel\" not found at D:\\xampp\\htdocs\\fickrr\\config\\excel.php:163)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 D:\\xampp\\htdocs\\fickrr\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-03-17 06:41:16] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Class \"Maatwebs...', Array)
+#4 D:\\xampp\\htdocs\\fickrr\\app\\Exceptions\\Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(481): Fickrr\\Exceptions\\Handler->report(Object(Error))
+#6 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Error))
+#7 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2023-03-17 06:41:16] laravel.ERROR: Class "Maatwebsite\Excel\Excel" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\Excel\" not found at D:\\xampp\\htdocs\\fickrr\\config\\excel.php:163)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(160): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 
+[2023-03-17 06:41:18] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Class \"Maatwebs...', Array)
+#4 D:\\xampp\\htdocs\\fickrr\\app\\Exceptions\\Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(481): Fickrr\\Exceptions\\Handler->report(Object(Error))
+#6 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Error))
+#7 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2023-03-17 06:41:18] laravel.ERROR: Class "Maatwebsite\Excel\Excel" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\Excel\" not found at D:\\xampp\\htdocs\\fickrr\\config\\excel.php:163)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(160): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 
+[2023-03-17 06:41:20] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Class \"Maatwebs...', Array)
+#4 D:\\xampp\\htdocs\\fickrr\\app\\Exceptions\\Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(481): Fickrr\\Exceptions\\Handler->report(Object(Error))
+#6 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Error))
+#7 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2023-03-17 06:41:20] laravel.ERROR: Class "Maatwebsite\Excel\Excel" not found {"exception":"[object] (Error(code: 0): Class \"Maatwebsite\\Excel\\Excel\" not found at D:\\xampp\\htdocs\\fickrr\\config\\excel.php:163)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(70): require()
+#1 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(160): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 D:\\xampp\\htdocs\\fickrr\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\fickrr\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 
