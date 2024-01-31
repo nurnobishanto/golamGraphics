@@ -18,9 +18,10 @@ $environmentFile = '.env'; // Default environment file
 
 $domain = $_SERVER['HTTP_HOST'] ?? '';
 
-if ($domain === 'golamgraphic.com' || $domain ==='www.golamgraphic.com') {
+if ($domain === 'golamgraphic.com' || $domain ==='www.golamgraphic.com' || $domain ==='new.golamgraphic.com' || $domain ==='www.new.golamgraphic.com') {
     $environmentFile = '.env.golamgraphic';
 }
+
 elseif ($domain === 'localhost' || $domain === '127.0.0.1' || $domain === '127.0.0.1:8000') {
     $environmentFile = '.env.local';
 }
